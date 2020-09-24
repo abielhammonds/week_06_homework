@@ -1,0 +1,33 @@
+PRACTICE PROBLEM 1
+
+Write a query to select all of the columns in the tutorial.us_housing_units table without using *.
+
+SELECT year,
+       month,
+       month_name,
+       south,
+       west,
+       midwest,
+       northeast
+  FROM tutorial.us_housing_units
+
+I've listed each column name in the data set to call all of the columns.
+
+
+PRACTICE PROBLEM 2
+
+Write a query to select all of the columns in tutorial.us_housing_units and rename them so that their first letters are capitalized.
+
+SELECT year as "Year",
+       month as "Month",
+       month_name as "Month Name",
+       south as "South",
+       west as "West",
+       midwest as "Midwest",
+       northeast as "Northeast"
+  FROM tutorial.us_housing_units
+
+I've renamed each column with a capital letter and space instead of underscore for month_name.
+
+PRACTICE PROBLEM 3
+
